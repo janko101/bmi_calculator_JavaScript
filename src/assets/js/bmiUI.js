@@ -1,7 +1,9 @@
 const calculateBMI = () => {
     let weightInput = document.getElementById("weight")
     let heightInput = document.getElementById("height")
-    let results = calculateMetricBmi(weightInput.value, heightInput.value)
-    let displayResultsElement = document.getElementById("results")
-displayResultsElement.innerHTML = <h1> Your BMI value is: ${results}</h1>
+    let  results = calculateMetricBMI(weightInput.value, heightInput.value)
+    let displayResultsElement = document.getElementById('results')
+    displayResultsElement.innerHTML = `<h2>Your BMI value is: ${results}</h2>`
+   
+    
 }
