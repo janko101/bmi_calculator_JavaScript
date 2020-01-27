@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 40px;
+    position: relative;
+    padding-top: 40px;
+    padding-left: 330px;
+}
+
+
+input {
+    margin-top: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    border-color: rgb(231, 227, 227);
+    border-radius: 4px;
+    text-indent: 10px;
+    
+}
+
+
+
+#weight {
+    margin-left: 370px;
+}
+
+
+
+#Calculate {
+    border: none;
+    font-family: 'Indie Flower', cursive;
+    background-color: white;
+    font-size: 35px;
+    letter-spacing: 2.5px;
+    outline: none;
+}
+
+#Calculate:hover {
+    background-color: salmon;
+    color: whitesmoke;
+    cursor: grab;
+    border-radius: 5px;
+}
+
+.container {
+    position: relative;
+    display: flexbox;
+    bottom: 100px;
+
+    
+}
+
+h2 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    position: absolute;
+    padding-top: 40px;
+    padding-left: 330px;
+
+}
+
+
+.text {
+    position: absolute;
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 32px;
+    margin-left: 470px;
+    bottom: 340px;
+  }
+
+  #buggs {
+      width: 927px;
+           
+  }
+
+
+
+
