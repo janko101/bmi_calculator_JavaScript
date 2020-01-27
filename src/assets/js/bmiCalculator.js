@@ -9,7 +9,7 @@ const getBMIClassification = (value) => {
         return "Underweight"
     }else if(value < 25){
         return "Healthy"
-    }else if (value < 30){
+    }else if (value > 25){
         return "Overweight"
     }
 }
